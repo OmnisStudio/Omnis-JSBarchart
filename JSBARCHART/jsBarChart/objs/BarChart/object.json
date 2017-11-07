@@ -1,0 +1,59 @@
+{
+	"ident": 1006,
+	"order": 4,
+	"objtype": "kComponent",
+	"componentlib": "jschrt1",
+	"componentctrl": "BarChart Control",
+	"properties": {
+		"alpha": 255,
+		"backalpha": 255,
+		"backcolor": "kWhite",
+		"barends": "kJSBarEndSoft",
+		"chartdirection": "kJSBarVertical",
+		"contextmenu": "",
+		"cssclassname": "",
+		"dataname": "iData",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": false,
+		"dropmode": "kAcceptNone",
+		"enabled": true,
+		"events": "",
+		"fieldstyle": "",
+		"maintitle": "Sales",
+		"objlink": 0,
+		"preventlayoutanimation": false,
+		"showvalue": true,
+		"showxaxis": true,
+		"showyaxis": true,
+		"tooltip": "",
+		"userinfo": "",
+		"visible": true,
+		"xtitle": "Month",
+		"ytitle": "Qty"
+	},
+	"layout": {
+		"310": {
+			"left": 5,
+			"top": 280,
+			"width": 300,
+			"height": 218,
+			"dragborder": false,
+			"edgefloat": "kEFright",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"600": {
+			"left": 140,
+			"top": 110,
+			"width": 447,
+			"height": 280,
+			"dragborder": false,
+			"edgefloat": "kEFright",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}

@@ -1,0 +1,2 @@
+On evClick
+	Do $cinst.$objs.BarChart.$chartdirection.$assign(pick(iDirection,kJSBarVertical,kJSBarHorizontal))

@@ -1,0 +1,2 @@
+On evClick
+	Do $cinst.$objs.BarChart.$barends.$assign([iBarEnds.iBarEnd])

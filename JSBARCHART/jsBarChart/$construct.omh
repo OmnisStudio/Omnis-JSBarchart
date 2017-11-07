@@ -1,0 +1,13 @@
+;  Enter your initialization code here
+
+Do iData.$define(iValue,iLabel)
+For lCount from 1 to 8 step 1
+	Do iData.$add(randintrng(1,1000),pick(lCount,'','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'))
+End For
+
+Do iBarEnds.$define(iBarEnd)
+Do iBarEnds.$add('kJSBarEndRound')
+Do iBarEnds.$add('kJSBarEndSharp')
+Do iBarEnds.$add('kJSBarEndSoft')
+Do iBarEnds.$add('kJSBarEndSquare')
+Do iBarEnds.$line.$assign(3)
